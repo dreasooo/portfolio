@@ -1,0 +1,345 @@
+/* custom css */
+
+html,
+body{
+    height: 100%;
+    background-color: black;
+}
+
+
+a{
+    color: #fbaa00;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem;
+    text-align: center !important;
+}
+
+a:hover{
+    color: #fbc045;
+}
+
+button {
+    color: #f0ad4e;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+}
+
+h6{
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 0.1rem;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+hr{
+    background-color: #ffffff;
+}
+
+title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+
+img{
+    width: 50%;
+    height: auto;
+    margin: 2rem;
+}
+
+p{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+ul{
+    float: none !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+ul a{
+    color: #7d7b76 !important;
+}
+
+
+#logo{
+    margin-right: 3rem;
+}
+
+@media (max-width: 780px) {
+    #logo{
+        float: right;
+        margin-right: -12rem;
+    }
+} 
+
+
+
+.bg-transparent{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.btn-gradient{
+    background: #fbaa00;
+}
+
+
+/* hide header image on mobile */
+@media (max-width: 780px) {
+    #my-img{
+        visibility: hidden;
+    }
+} 
+
+
+
+/** Hero banner **/
+#heroBanner{
+    background-color: #000000;
+    color: #454545;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#heroBanner hr{
+    width: 60%;
+
+}
+
+#hero-caption{
+    font-size: 1.4em;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+/*mobile Hero banner H1*/
+
+@media (max-width: 450px) {
+    #heroBanner h1{
+        font-size: 2.5em;
+    }
+}
+
+
+/** Skills **/
+#mySkills{
+    background-color: #ffffff;
+    color: #454545;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+#mySkills h1{
+    color: #454545;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+/** Media query for Skills section (tablet/mobile) **/
+@media (max-width: 450px) {
+    #mySkills{
+        padding: 4rem 0 4rem 0;
+    }
+} 
+
+/** Projects **/
+#projects{
+    background-color: #000000;
+    color: #454545;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+#projects p{
+    color: #454545;
+}
+
+#projects img{
+     width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card-margin{
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.navbar-toggler{
+    color: #ffffff !important;
+    background-color: #ffffff !important;
+}
+
+/** Media query for Projects section (tablet/mobile) **/
+@media (max-width: 450px) {
+    #projects{
+        padding: 4rem 1rem 4rem 1rem;
+    }
+
+    #projects img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .card-margin{
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    #projects img{
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+} 
+
+
+
+/** Contact **/
+#contact{
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 7rem;
+}
+
+#contact h1{
+    color: #fbaa00;
+    font-size: 6em;
+}
+
+
+/** Contact form **/
+.contact-form{
+    border: none;
+    background: none;
+    border-bottom: 2px solid #2d2d2d;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    font-size: 0.8em;
+    width: 20rem;
+    color: #ffffff;
+}
+
+input:focus{
+    border-bottom: 2px solid #fbaa00;
+    outline: none;
+    
+}
+
+.text-box{
+    width: 20rem;
+    height: 10rem;
+    color: #ffffff;
+
+}
+
+textarea:focus{
+    border-bottom: 2px solid #000000;
+    outline: none;
+}
+
+.submit-botton{
+    background: #000000;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 0.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+
+
+/** Media query for Contact section (tablet/mobile) **/
+@media (max-width: 450px) {
+    #contact{
+        background-color: #fbaa00;
+        background-image: url('../img/phone2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 4rem 1rem 4rem 1rem;
+    }
+
+    #contact h1{
+        color: #ffffff;
+        font-size: 4em;
+    }
+
+
+    .contact-form{
+        width: 15rem;
+    }
+
+    .submit-botton{
+        width: 15rem;
+    }
+} 
+
+
+/**Footer**/
+
+.footer{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer img{
+    width: auto;
+    height: auto;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 1rem; /* Place the button at the bottom of the page */
+    right: 0.5rem; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: none; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0; /* Some padding */
+    
+}
