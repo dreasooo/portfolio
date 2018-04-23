@@ -191,6 +191,12 @@ ul a{
     background-color: #ffffff !important;
 }
 
+.modal-body img{
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 1rem !important;
+}
+
 /** Media query for Projects section (tablet/mobile) **/
 @media (max-width: 450px) {
     #projects{
@@ -246,7 +252,7 @@ ul a{
     margin: 0.5rem;
     font-size: 0.8em;
     width: 20rem;
-    color: #ffffff;
+    color: #2d2d2d;
 }
 
 input:focus{
@@ -258,7 +264,7 @@ input:focus{
 .text-box{
     width: 20rem;
     height: 10rem;
-    color: #ffffff;
+    color: #2d2d2d;
 
 }
 
