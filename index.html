@@ -245,11 +245,17 @@ and code EDM creatives for our survey campaigns from time to time. See some of m
                             <h1>Let's Talk!</h1><br />
                             <p>Do you have any projects we can work with? </p>
                            
-                            <form action="#" method="get">
-                              <input type="text" name="name" placeholder="Name" class="contact-form"><br>
-                              <input type="text" name="email" placeholder="Email Address" class="contact-form"><br>
-                              <textarea name="comment" form="usrform" placeholder="Message" class="contact-form text-box"></textarea><br>
-                               <input type="submit" value="Send message" class="submit-botton">
+                           <form action="/lib/contact.php" id="usrform" method="post" > 
+                              <input type="text" name="name" placeholder="Name" required="" class="contact-form"><br>
+                              <input type="email" name="email" placeholder="Email Address" required class="contact-form"><br>
+                              <textarea name="comment" form="usrform" placeholder="Message" required class="contact-form text-box"></textarea><br>
+                               <input type="submit" value="Send message" class="submit-botton">  
+                                <div class="container">
+                                  <div class="alert form-alert alert-success alert-dismissible hide" style="display:none" id="myAlert">
+                                    <a href="#" class="close">&times;</a>
+                                    <strong>Success!</strong> Contact message has been sent.
+                                  </div>
+                                </div>
                             </form>
 
                     </div>
@@ -301,4 +307,5 @@ and code EDM creatives for our survey campaigns from time to time. See some of m
         
       
     </body>
+     <script src="/app.js"></script>
 </html>
