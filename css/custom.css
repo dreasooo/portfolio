@@ -8,7 +8,7 @@ body{
 
 
 a{
-    color: #fbaa00;
+    color: #D4AF37;
     font-size: 1.1em;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
@@ -70,8 +70,12 @@ ul{
 
 ul a{
     color: #7d7b76 !important;
+    letter-spacing: 0.1em;
 }
 
+ul a:hover{
+    color: #D4AF37 !important;
+}
 
 #logo{
     margin-right: 3rem;
@@ -85,6 +89,10 @@ ul a{
 } 
 
 
+.navbar-toggler{
+    color: #ffffff !important;
+    background-color: #ffffff !important;
+}
 
 .bg-transparent{
     background-color: transparent !important;
@@ -186,11 +194,6 @@ ul a{
     margin: 2rem;
 }
 
-.navbar-toggler{
-    color: #ffffff !important;
-    background-color: #ffffff !important;
-}
-
 .modal-body img{
     width: 100% !important;
     height: auto !important;
@@ -227,9 +230,7 @@ ul a{
 /** Contact **/
 #contact{
     background-color: #ffffff;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #ffffff;
+    color: #2d2d2d;
     display: flex;
     align-items: center;
     text-align: center;
@@ -238,7 +239,7 @@ ul a{
 }
 
 #contact h1{
-    color: #fbaa00;
+    color: #D4AF37;
     font-size: 6em;
 }
 
@@ -255,27 +256,37 @@ ul a{
     color: #2d2d2d;
 }
 
+
+
+label {
+    color: #ffffff;
+    text-align: left !important;
+    text-transform: uppercase;
+}
+
+
 input:focus{
-    border-bottom: 2px solid #fbaa00;
+    border-bottom: 2px solid #D4AF37;
     outline: none;
     
 }
 
 .text-box{
     width: 20rem;
-    height: 10rem;
+    height: 8rem;
     color: #2d2d2d;
 
 }
 
 textarea:focus{
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #D4AF37;
     outline: none;
 }
 
 .submit-botton{
     background: #000000;
-    border-radius: 5px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: none;
     color: white;
     margin: 0.5rem;
@@ -283,8 +294,12 @@ textarea:focus{
     height: 2.5rem;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 0.8em;
     cursor: pointer;
+}
+
+.submit-botton:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -321,13 +336,6 @@ textarea:focus{
 
 
 /**Footer**/
-
-.footer{
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 0.8em;
-    text-align: center;
-    padding: 2rem;
 }
 
 .footer img{
