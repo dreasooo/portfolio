@@ -157,7 +157,7 @@ ul a:hover{
 }
 
 #mySkills h1{
-    color: #454545;
+    color: #D4AF37;
     font-family: 'Raleway', sans-serif;
     font-size: 3.5em;
     text-align: center;
@@ -309,11 +309,7 @@ textarea:focus{
 /** Media query for Contact section (tablet/mobile) **/
 @media (max-width: 450px) {
     #contact{
-        background-color: #fbaa00;
-        background-image: url('../img/phone2.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        color: #ffffff;
+        color: #D4AF37;
         display: flex;
         align-items: center;
         text-align: center;
@@ -322,7 +318,7 @@ textarea:focus{
     }
 
     #contact h1{
-        color: #ffffff;
+        color: #D4AF37;
         font-size: 4em;
     }
 
